@@ -3,8 +3,8 @@ public class Anagram
 {
 	public static void main(String[] args) 
 	{
-		String s1 = "a decimal point  ";
-		String s2 = "im a dot in place";
+		String s1 = "adecimalpoint";
+		String s2 = "imadotinplace";
 		
 		Anagram1 ag = new Anagram1();
 		System.out.println(ag.checkAg(s1, s2));
